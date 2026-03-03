@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_glass_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/widget1Icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/widget1Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/widget1Icon"
+            android:fontFamily="@font/inter_bold"
+            android:text="45°"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp" /> <TextView
+        android:id="@+id/weatherInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.7"
+        android:gravity="end"
+        android:maxWidth="100dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="Sunny"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.2"
+        android:background="#FFFFFF"
+        android:layout_marginVertical="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hourly Forecast"
+        android:textAllCaps="true"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="#80FFFFFF"
+        android:textSize="10sp"
+        android:layout_marginBottom="4dp"/>
+
+    <ListView
+        android:id="@+id/rvWidget1Preview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="4dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

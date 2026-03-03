@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/forecastDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thu"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/forecastIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginVertical="8dp"
+        android:src="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/forecastMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4°C"
+        android:textColor="#FF6B6B"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/forecastMinTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-2°C"
+        android:textColor="#A0FFFFFF"
+        android:textSize="12sp" />
+</LinearLayout>

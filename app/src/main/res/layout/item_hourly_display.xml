@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_90sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/_12sdp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/tvHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 AM"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:id="@+id/tvConditionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLOUDY"
+        android:fontFamily="@font/quicksand_light"
+        android:textColor="#81D4FA"
+        android:textSize="@dimen/_10ssp" />
+
+    <ImageView
+        android:id="@+id/ivHourIcon"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginVertical="@dimen/_8sdp" />
+
+    <TextView
+        android:id="@+id/tvPrecipitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15%"
+        android:fontFamily="@font/quicksand_light"
+        android:textColor="#81D4FA"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:id="@+id/tvHourTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="56°"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWindInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NNE 6"
+        android:fontFamily="@font/quicksand_medium"
+        android:textColor="#B0BEC5"
+        android:textSize="@dimen/_10ssp" />
+</LinearLayout>
